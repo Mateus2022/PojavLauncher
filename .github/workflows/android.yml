@@ -36,7 +36,6 @@ jobs:
           branch: buildjre8
           name: jre8-pojav
 
-
       - name: Get JRE17
         uses: dawidd6/action-download-artifact@v2
         with:
@@ -46,7 +45,6 @@ jobs:
           repo: PojavLauncherTeam/android-openjdk-build-multiarch
           branch: buildjre17-21
           name: jre17-pojav
-```
 
       - uses: gradle/gradle-build-action@v2
         with:
